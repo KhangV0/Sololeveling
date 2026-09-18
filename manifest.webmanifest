@@ -1,0 +1,16 @@
+{
+  "name": "Solo Leveling Quest System",
+  "short_name": "Solo Quest",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#070a12",
+  "theme_color": "#070a12",
+  "icons": [
+    {
+      "src": "assets/dark-monarch.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-label="Biểu tượng Chúa tể bóng tối">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="75%"><stop offset="0" stop-color="#172d45"/><stop offset=".58" stop-color="#0a1322"/><stop offset="1" stop-color="#03060d"/></radialGradient>
+    <linearGradient id="aura" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5ce1e6"/><stop offset=".55" stop-color="#6d83ff"/><stop offset="1" stop-color="#b8f26d"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="180" height="180" rx="28" fill="url(#bg)"/>
+  <path d="M90 12 102 36 132 25 126 51 159 48 139 71 169 84 140 94 157 126 126 116 122 151 101 128 90 168 79 128 58 151 54 116 23 126 40 94 11 84 41 71 21 48 54 51 48 25 78 36Z" fill="none" stroke="url(#aura)" stroke-width="2" opacity=".65" filter="url(#glow)"/>
+  <path d="M90 37 106 57 121 47 119 68 140 76 119 85 127 111 105 101 90 145 75 101 53 111 61 85 40 76 61 68 59 47 74 57Z" fill="#03050a" stroke="#5ce1e6" stroke-width="2"/>
+  <path d="M69 61 78 46 90 57 102 46 111 61 106 72 90 66 74 72Z" fill="#101c2c" stroke="#b8f26d" stroke-width="2"/>
+  <path d="M64 82 90 70 116 82 124 126 108 119 90 155 72 119 56 126Z" fill="#050911" stroke="#6d83ff" stroke-width="2"/>
+  <path d="M76 86 90 78 104 86 98 92 90 88 82 92Z" fill="#5ce1e6" filter="url(#glow)"/>
+  <path d="M66 128 48 151M114 128 132 151M73 116 48 129M107 116 132 129" stroke="#b8f26d" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+</svg>
